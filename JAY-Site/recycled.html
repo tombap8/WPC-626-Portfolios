@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ERUSAM - RECYCLED원료</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- 메인 CSS -->
+    <link rel="stylesheet" href="./css/about_us.css" />
+    <link rel="stylesheet" href="./css/recycled.css" />
+
+    <!-- 제이쿼리 라이브러리 -->
+    <script src="./js/jquery-3.6.3.min.js"></script>
+    <script src="./js/jquery-ui.min.js" defer></script>
+
+    <!-- 공통 JS -->
+    <script src="./js/common.js" type="module"></script>
+  </head>
+  <body>
+    <!-- 1. 상단영역 (common.js에서 자동 로드) -->
+    <div id="top-area"></div>
+
+    <!-- 2. 메인영역 -->
+    <div id="main-area">
+      <!-- 히어로 섹션 -->
+      <section class="page-hero">
+        <h2>RECYCLED원료</h2>
+      </section>
+
+      <!-- 브레드크럼 -->
+      <div class="breadcrumb">
+        <a href="index.html">홈</a>
+        <i class="fas fa-chevron-right"></i>
+        <a href="#">RECYCLED원료</a>
+        <i class="fas fa-chevron-right"></i>
+        <span>RECYCLED원료</span>
+      </div>
+
+      <!-- 메인 컨텐츠 -->
+      <main class="recycled-content">
+        <h1>Recycled원료</h1>
+
+        <!-- Recycled원료 섹션 -->
+        <section class="product-section">
+          <div class="section-badge">Recycled원료</div>
+          
+          <div class="recycled-flakes">
+            <img src="./images/recycled/flake1.png" alt="PET재 무색칩" />
+          </div>
+        </section>
+
+        <!-- Recycled PET 섹션 -->
+        <section class="product-section">
+          <div class="section-badge">Recycled PET</div>
+          
+          <div class="recycled-pet-images">
+            <!-- 첫 번째 줄 -->
+            <div class="pet-row">
+              <img src="./images/recycled/flake2.png" alt="Recycled PET 1" />
+            </div>
+            
+            <!-- 두 번째 줄 -->
+            <div class="pet-row">
+              <img src="./images/recycled/flake3.png" alt="Recycled PET 5" />
+            </div>
+          </div>
+
+          <!-- 다운로드 링크 -->
+          <div class="download-section">
+            <a href="./downloads/PET PELLET.pdf" class="download-btn" download>PET PELLET 물성표</a>
+            <a href="./downloads/PET.pdf" class="download-btn" download>PET 병 분쇄품 물성표</a>
+          </div>
+
+          <!-- 정보 이미지 1 -->
+          <div class="info-image">
+            <img src="./images/recycled/flake4.png" alt="재활용 PET 병 리사이클 토탈 시스템" />
+          </div>
+
+          <!-- 정보 이미지 2 -->
+          <div class="info-image">
+            <img src="./images/recycled/flake5.png" alt="PET 병 재활용 흐름도" />
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- 3. 하단영역 (common.js에서 자동 로드) -->
+    <div id="bottom-area"></div>
+  </body>
+</html>

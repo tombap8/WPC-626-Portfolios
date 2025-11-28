@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ERUSAM</title>
+    <!-- 폰트어썸 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- 메인 CSS -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- 메인 미디어쿼리 CSS -->
+    <link rel="stylesheet" href="./css/main_media.css" />
+
+    <!-- 제이쿼리 라이브러리 불러오기 
+     제이쿼리를 사용하는 JS파일 위에 불러와야한다! -->
+    <script src="./js/jquery-3.6.3.min.js"></script>
+
+    <!-- 외부JS 제이쿼리버전 - defer필수! -->
+    <script src="./js/jquery-ui.min.js" defer></script>
+
+    <!-- 공통 JS -->
+    <script src="./js/common.js" type="module"></script>
+
+    <!--  메인 JS -->
+    <script src="./js/main.js" type="module"></script>
+
+  </head>
+  <body>
+    <!-- 1. 상단영역  -->
+    <div id="top-area"></div>
+
+    <!-- 2. 메인영역 -->
+    <div id="main-area">
+      <main class="main-area">
+        <!-- 2-1. 배너영역 -->
+        <section class="page banner-part">
+          <h2 class="temp-tit blind">2-1. 배너영역</h2>
+          <!-- 배너박스 -->
+          <div class="banner-box">
+            <!-- 배너 슬라이드 박스 : ul>li구조 -->
+            <ul class="banner-slide">
+              <li class="on">
+                <a href="#"
+                  ><img src="./images/banner/ban08.png" alt="배너이미지1" />
+                  <h2>
+                    (주)휴비스 우수협력업체 <br />
+                    <b>PET RESIN 대리점</b>
+                  </h2>
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./images/banner/ban01.png" alt="배너이미지2" />
+                  <h2>
+                    최고의 경쟁력을 가진 <br />
+                    <b>GLOBAL BUSINESS</b>
+                  </h2>
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./images/banner/ban07.png" alt="배너이미지3" />
+                  <h2>
+                    자연에서 얻은 <br />
+                    <b>지혜로 만든 혁신</b>
+                  </h2>
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./images/banner/ban04.png" alt="배너이미지1" />
+                  <h2>
+                    멈추지 않는 탐구, <br />
+                    <b>혁신을 향한 열정</b>
+                  </h2>
+                </a>
+              </li>
+            </ul>
+
+            <!--이동버튼-->
+            <div class="abtn-grp">
+              <a href="#" class="abtn ab1">
+                <img
+                  src="./images/banner/etc/left_btn.png"
+                  alt="왼쪽이동버튼"
+                />
+              </a>
+              <a href="#" class="abtn ab2">
+                <img
+                  src="./images/banner/etc/right_btn.png"
+                  alt="오른쪽이동버튼"
+                />
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- 2-2. Product영역 -->
+        <section class="page product-part inbox">
+          <h2 class="tit">Product</h2>
+          <div class="icon-box">
+            <ul>
+              <li>
+                <img src="./images/product_icon/8.png" alt="아이콘8" />
+                <div class="icon-txt-bx">
+                  <h2>포름알데히드</h2>
+                  <h3>캐쳐제</h3>
+                </div>
+              </li>
+              <li>
+                <img src="./images/product_icon/5.png" alt="아이콘5" />
+                <div class="icon-txt-bx">
+                  <h2>향균제</h2>
+                </div>
+              </li>
+              <li>
+                <img src="./images/product_icon/1.png" alt="아이콘1" />
+                <div class="icon-txt-bx">
+                  <h2>RECYCLED원료</h2>
+                  <h3></h3>
+                </div>
+              </li>
+              <li>
+                <img src="./images/product_icon/2.png" alt="아이콘2" />
+                <div class="icon-txt-bx">
+                  <h2>식미개선제</h2>
+                  <h3>밥맛향상제</h3>
+                </div>
+              </li>
+              <li>
+                <img src="./images/product_icon/3.png" alt="아이콘3" />
+                <div class="icon-txt-bx">
+                  <h2>DURASIL</h2>
+                </div>
+              </li>
+              <li class="ex">
+                <img src="./images/product_icon/6.png" alt="아이콘6" />
+                <div class="icon-txt-bx">
+                  <h2>PET JBB305</h2>
+                  <h3>(고상 Chip)</h3>
+                </div>
+              </li>
+              <li class="ex">
+                <img src="./images/product_icon/6.png" alt="아이콘7" />
+                <div class="icon-txt-bx">
+                  <h2>PET JSB194</h2>
+                  <h3>(액상 Chip)</h3>
+                </div>
+              </li>
+              <li class="ex">
+                <img src="./images/product_icon/7.png" alt="아이콘8" />
+                <div class="icon-txt-bx">
+                  <h2>세탁내구성</h2>
+                  <h3>향상가공제</h3>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- 바깥박스가 부모 : 버튼그룹 -->
+          <div class="btn-grp">
+            <button class="btn-up">
+              <i class="fa-solid fa-chevron-up"></i>
+            </button>
+            <button class="btn-down">
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+          </div>
+        </section>
+
+        <!-- 2-3. About us영역 -->
+        <section class="page aboutus-part inbox">
+          <h2 class="tit">About us</h2>
+          <ul class="icon-box">
+            <li>
+              <a href="about_overview.html">
+                <img src="./images/aboutus1.png" alt="about us" />
+                <h4>회사개요</h4>
+              </a>
+            </li>
+            <li>
+              <a href="history.html">
+                <img src="./images/aboutus2.png" alt="about us" />
+                <h4>연혁</h4>
+              </a>
+            </li>
+            <li>
+              <a href="about_location.html">
+                <img src="./images/aboutus3.png" alt="about us" />
+                <h4>사업장소개</h4>
+              </a>
+            </li>
+            <li>
+              <a href="about_us.html">
+                <img src="./images/aboutus4.png" alt="about us" />
+                <h4>인사말</h4>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+    <!-- 3. 하단영역 -->
+    <div id="bottom-area"></div>
+  </body>
+</html>
